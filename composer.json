@@ -1,0 +1,29 @@
+{
+    "name": "yazvonov/laravel-roles-privileges",
+    "description": "Roles and privileges management system for Laravel",
+    "keywords": ["laravel", "javascript", "roles", "privileges", "access"],
+    "homepage": "https://github.com/yazvonov/laravel-roles-privileges",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Zvonov",
+            "email": "zvonovyo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yazvonov\\LaravelRolesPrivileges\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yazvonov\\LaravelRolesPrivileges\\RolesPrivilegesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+}
